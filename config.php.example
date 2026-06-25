@@ -1,0 +1,29 @@
+<?php
+// Moodle configuration example - copy to your Moodle root as config.php and edit.
+
+unset($CFG);
+global $CFG;
+$CFG = new stdClass();
+
+$CFG->dbtype    = 'mysqli';
+$CFG->dblibrary = 'native';
+$CFG->dbhost    = 'localhost';
+$CFG->dbname    = 'moodle';
+$CFG->dbuser    = 'moodle_user';
+$CFG->dbpass    = 'change-me';
+$CFG->prefix    = 'mdl_';
+$CFG->dboptions = array(
+  'dbpersist' => 0,
+  'dbport' => '',
+  'dbsocket' => '',
+  'dbcollation' => 'utf8mb4_unicode_ci',
+);
+
+$CFG->wwwroot   = 'https://moodle.example.com';
+$CFG->dataroot  = '/var/moodledata';
+$CFG->admin     = 'admin';
+
+$CFG->directorypermissions = 0777;
+$CFG->lang = 'en';
+
+require_once(__DIR__ . '/lib/setup.php');

@@ -1,0 +1,33 @@
+
+[
+    {
+        "name": "moodle-mod_vpl",
+        "link": "https://github.com/jcrodriguez-dis/moodle-mod_vpl/archive/refs/tags/v4.1.0.tar.gz",
+        "type": "tar.gz",
+        "version": "4.1.0"
+    },
+    {
+        "name": "adminer",
+        "link": "https://moodle.org/plugins/download.php/28045/local_adminer_moodle42_2021051702.zip",
+        "type": "zip",
+        "version": "4.8.1-2"
+    },
+    {
+        "name": "local_mailtest",
+        "link": "https://moodle.org/plugins/download.php/29145/local_mailtest_moodle42_2023050600.zip",
+        "type": "zip",
+        "version": "2.0.2"
+    },
+    {
+        "name": "format_remuiformat",
+        "link": "https://moodle.org/plugins/download.php/25075/format_remuiformat_moodle311_2021090300.zip",
+        "type": "zip",
+        "version": "1.1.1"
+    },
+    {
+        "name": "local_oauth",
+        "link": "https://github.com/Theemiss/moodle-local_oauth.git",
+        "type": "git",
+        "version": "1.0"
+    }
+]

@@ -1,0 +1,9 @@
+config.php
+moodle_installation/
+moodle_restore/
+Themes/
+
+.cursor/
+.cursorrules
+.agents/
+*.cursor.md
